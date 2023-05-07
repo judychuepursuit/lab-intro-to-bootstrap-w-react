@@ -1,9 +1,9 @@
 /** @format */
 
 import postData from "./data/posts.json";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
 import Content from "./components/Content";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 function App() {
 	return (
@@ -14,7 +14,7 @@ function App() {
 			</p>
 			<hr />
             <Content posts={postData}></Content>
-
+            
 			<Footer></Footer>
 		</>
 	);
