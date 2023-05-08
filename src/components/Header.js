@@ -1,35 +1,13 @@
-/** @format */
-
-import React from "react";
+//New updated 
 
 function Header() {
-	return (
-		<>
-			<header className="container d-flex align-items-center flex-row p-2">
-				<a className="navbar-brand" href=" ">
-					<a href=" " className="fw-bold m-0 fs-2 link-dark text-decoration-none">
-						Travel
-						<a href=" " className="ms-1 text-warning script-font text-decoration-none">
-							Blog
-						</a>
-					</a>
-				</a>
-				<ul className="ms-5 nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-					<li>
-						<a className="nav-link px-2 link-dark" href=" ">
-							About
-						</a>
-					</li>
-					<li>
-						<a className="nav-link px-2 link-dark" href=" ">
-							Popular posts
-						</a>
-					</li>
-				</ul>
-			</header>
-			<hr className="m-0" />
-		</>
-	);
-}
-
-export default Header;
+    return (
+      <div className="container nav py-4">
+          <h1 className="me-5">Travel <span className="script-font text-warning">Blog</span></h1>
+          <a className="link-secondary nav-link mt-2" href="#"> About</a>
+          <a className="link-secondary nav-link mt-2" href="#"> Popular posts</a>
+      </div>
+    );
+  }
+  
+  export default Header;

@@ -1,23 +1,46 @@
-/** @format */
-
+import { useState } from "react";
 import postData from "./data/posts.json";
-import Content from "./components/Content";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import Header from "./Components/Header";
+import Search from "./Components/Search";
+import Posts from "./Components/Posts";
+import Table from "./Components/Table";
+import Footer from "./Components/Footer";
+import Quote from "./Components/Quote";
+
 
 function App() {
-	return (
-		<>
-			<Header></Header>
-			<p className="script-font fs-1 text-md-center m-4">
-				Travel is the only thing you buy that makes you richer...
-			</p>
-			<hr />
-            <Content posts={postData}></Content>
-            
-			<Footer></Footer>
-		</>
-	);
+  const [posts, setPosts] = useState(postData);
+  const [search, setSearch] = useState("");
+
+  function handleSearch(event) {
+    setSearch(event.target.value);
+    let filtered = postData.filter(post => post.location.toLowerCase().includes(event.target.value.toLowerCase()));
+    setPosts(filtered);
+}
+
+  return (
+    <main>
+      <Header/>
+      <Quote/>
+      <section className="container">
+        <Search
+          postData={postData}
+          setPosts={setPosts}
+          handleSearch={handleSearch}
+        />
+        <section className="row row-gap-4">
+          <Posts
+            posts={posts}
+            search={search}
+          />
+          <Table
+            posts={postData}
+          />
+        </section>
+      </section>
+      <Footer/>
+    </main>
+  );
 }
 
 export default App;

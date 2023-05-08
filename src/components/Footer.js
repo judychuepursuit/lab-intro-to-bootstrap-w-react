@@ -1,21 +1,24 @@
-/** @format */
-
-import React from "react";
 
 function Footer() {
-	return (
-		<footer className="bg-warning p-4 d-flex flex-row justify-content-end">
-			<ul className="mr-5 m-0">
-				<li className="list-unstyled m-1">
-					<a href=" " className="text-decoration-none text-dark">Contact me</a>
-				</li>
-				<li className="list-unstyled m-1">
-					<a href=" " className="text-decoration-none text-dark">About the author</a>
-				</li>
-			</ul>
-			<a href=" " className="text-decoration-none text-dark ms-5 px-5">Copyright <strong>MyTravelBlog</strong> 2020</a>
-		</footer>
-	);
+    return (
+        <footer className="bg-warning p-4 mt-4">
+            <div className="row">
+                <div className="col-lg-3 offset-lg-6">
+                    <ul className="nav flex-column">
+                        <li className="nav-item">
+                            <a className="nav-link link-dark" href="#">Contact me</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link link-dark" href="#">About the author</a>
+                        </li>
+                    </ul>
+                </div>
+                <div className="col-lg-3">
+                    <p className="mt-2">Copyright <strong>MyTravelBlog</strong> 2020</p>
+                </div>
+            </div>
+        </footer>
+    );
 }
 
 export default Footer;
