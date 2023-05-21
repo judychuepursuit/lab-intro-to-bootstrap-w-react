@@ -1,25 +1,17 @@
 /** @format */
-//changed from SearchBar.js
 
-function Search({ postData, setPosts, handleSearch}) {
-
-    function resetPage() {
-        setPosts(postData);
-        document.querySelector("input").value = "";
-    }
-
+function Search({ handleSearch, resetPage }) {
     return (
         <div className="d-none d-sm-block my-3 d-flex">
-            <div className="d-flex gap-3">
-                {/* <label>Search posts by location...</label> */}
+            <div className="input-group d-flex gap-3">
+                <label className="mt-2">Search posts by location...</label>
                 <input
-                    className="form-control"
+                    className="form-control rounded"
                     type="search"
-                    placeholder="Search posts by location..."
                     onChange={handleSearch}
                 ></input>
                 <button
-                    className="btn btn-warning"
+                    className="btn btn-warning rounded"
                     onClick={resetPage}
                 >Cancel</button>
             </div>

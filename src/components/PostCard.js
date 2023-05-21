@@ -1,5 +1,4 @@
 
-//renamed cards.js
 import images from "../images";
 
 function PostsCard({ post }) {
