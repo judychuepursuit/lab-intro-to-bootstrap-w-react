@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.7fbce186.css","mappings":"+EAEA,aACE,+BACF,CAEA,mBACE,YACF","sources":["index.css"],"sourcesContent":["@import url(\"https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap\");\n\n.script-font {\n  font-family: \"Great Vibes\", cursive;\n}\n\n.post-image-height {\n  height: 250px;\n}\n\n\n"],"names":[],"sourceRoot":""}

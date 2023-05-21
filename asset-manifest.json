@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/lab-intro-to-bootstrap-w-react/static/css/main.7fbce186.css",
+    "main.js": "/lab-intro-to-bootstrap-w-react/static/js/main.3032cfd2.js",
+    "static/media/sevilla.jpg": "/lab-intro-to-bootstrap-w-react/static/media/sevilla.8b0b188ef8cc814c81cb.jpg",
+    "static/media/san-francisco.jpg": "/lab-intro-to-bootstrap-w-react/static/media/san-francisco.8d6736b8e3adbc22d47c.jpg",
+    "static/media/dubai.jpg": "/lab-intro-to-bootstrap-w-react/static/media/dubai.48332b62851c94fe9c86.jpg",
+    "static/media/burano.jpg": "/lab-intro-to-bootstrap-w-react/static/media/burano.ca16d68722737d41108b.jpg",
+    "static/media/chicago.jpg": "/lab-intro-to-bootstrap-w-react/static/media/chicago.fcae863752deb553ccf0.jpg",
+    "static/media/shibuya.jpg": "/lab-intro-to-bootstrap-w-react/static/media/shibuya.7c088808288c57059db8.jpg",
+    "static/media/london.jpg": "/lab-intro-to-bootstrap-w-react/static/media/london.a8cf0111fbd0d063aba5.jpg",
+    "static/media/porto.jpg": "/lab-intro-to-bootstrap-w-react/static/media/porto.cff315579c56787b4c2f.jpg",
+    "static/media/san-diego.jpg": "/lab-intro-to-bootstrap-w-react/static/media/san-diego.3f07b84d120d987ed1c7.jpg",
+    "static/media/seattle.jpg": "/lab-intro-to-bootstrap-w-react/static/media/seattle.c9ab0dbf3650c3789ef2.jpg",
+    "index.html": "/lab-intro-to-bootstrap-w-react/index.html",
+    "main.7fbce186.css.map": "/lab-intro-to-bootstrap-w-react/static/css/main.7fbce186.css.map",
+    "main.3032cfd2.js.map": "/lab-intro-to-bootstrap-w-react/static/js/main.3032cfd2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7fbce186.css",
+    "static/js/main.3032cfd2.js"
+  ]
+}
